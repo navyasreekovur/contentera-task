@@ -1,0 +1,32 @@
+.content {
+    display: inline-block;
+    margin: auto;
+    width: 75%;
+    padding: 16px;
+    justify-content:flex-start;
+  
+    
+}
+.myContent{
+    background: lightblue;
+    color: black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: auto;
+    max-height: 200px;;
+}
+.content > mat-card {
+    width: 400px;
+    height: 300px;
+    border: blue 2px solid;
+      
+}
+
+.mat-card-content{
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
